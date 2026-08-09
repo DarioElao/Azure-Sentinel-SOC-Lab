@@ -23,11 +23,27 @@ The objective was to apply and reinforce existing skills in KQL, SIEM administra
 * Incident
 * SOC Analyst Investigation 
 
-<p>
-  <img src="screenshots/Lab-Environment.png" width="400">
-</p>
+<table>
+  <tr>
+    <td rowspan="2" align="center">
+      <img src="screenshots/Lab-Environment.png" width="400">
+    </td>
+    <td align="center">
+      <img src="screenshots/SOC-LAB-Resource-Group.png" width="200">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/Monitor agent on SOC-WIN11-01.png" width="200">
+    </td>
+  </tr>
+</table>
 
-*Figure 1 - Microsoft Sentinel SOC lab environment used for the investigation*
+*Figure 1 - Microsoft Sentinel SOC lab environment Diagram used for the investigation*
+
+*Figure 2 - SOC-LAB Resource Group Creation in Azure*
+
+*Figure 3 - VM (SOC-WIN11-01) added to the Azure Portal*
 
 ## Detection
 
@@ -49,9 +65,9 @@ The query was implemented as a **Scheduled Analytics Rule**:
   <img src="screenshots/Entity Mapping on Detect Rule.png" width="375">
 </div>
 
-*Figure 2 - Microsoft Defender Detect Rule*
+*Figure 1 - Microsoft Defender Detect Rule*
 
-*Figure 3 - Entity Mapping parameters on Detect Rule*
+*Figure 2 - Entity Mapping parameters on Detect Rule*
 
 ## Results
 
@@ -75,6 +91,10 @@ The event was intentionally generated as part of controlled security testing and
   <img src="screenshots/Example Incident.png" width="400">
   <img src="screenshots/Alert - Entity Mapping Details.png" width="400">
 </div>
+
+*Figure 1 - Brute Force Incident Detection generated from VM SOC-WIN111-01*
+
+*Figure 2 - Alert Details on Microsoft Sentinel*
 
 ## Skills Demonstrated
 
