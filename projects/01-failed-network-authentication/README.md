@@ -13,11 +13,19 @@ The objective was to apply and reinforce existing skills in KQL, SIEM administra
 ## Environment
 
 * Microsoft Azure
-* Microsoft Sentinel
-* Log Analytics
-* Windows 11 (`SOC-WIN11-01`)
+* Resource Group (SOC-LAB-RG)
+* Windows 11 VM (SOC-WIN11-01)
 * Azure Monitor Agent
-* KQL
+* Log Analytics Workspace (SOC-LAB-LAW1)
+* Microsoft Sentinel
+* Scheduled Analytics Rule (SOC-LAB - Failed Network Authentication)
+* Alert
+* Incident
+* SOC Analyst Investigation 
+
+![SOC Lab Environment](screenshots/lab-environment.png)
+
+*Image - Microsoft Sentinel SOC lab environment used for the investigation.*
 
 ## Detection
 
