@@ -26,6 +26,7 @@ The detection identified a failed network authentication attempt on the Windows 
   <img src="../screenshots/Example Incident.png" width="400">
 </div>
 
+*Microsoft Sentinel Incident Generated from SOC-WIN11-01*
 
 ## Investigation
 
@@ -41,6 +42,8 @@ Entity mapping was configured to associate the detection with the relevant **dev
   <img src="../screenshots/Alert - Entity Mapping Details.png" width="400">
 </div>
 
+*Microsoft Sentinel Alert Details*
+
 ## Classification
 
 **Classification:** Informational, expected activity
@@ -51,6 +54,8 @@ The alert was intentionally generated to validate the detection pipeline.
 <div>
   <img src="../screenshots/Alert Classification.png" width="400">
 </div>
+
+*Alert Classification and Triage*
 
 ## Investigation Outcome
 
