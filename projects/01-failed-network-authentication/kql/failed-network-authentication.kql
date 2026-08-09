@@ -1,3 +1,8 @@
+// Detects failed Windows authentication attempts (Event ID 4625)
+// and filters for network-based logons (Logon Type 3).
+// Extracts the targeted account, source IP address, and failure reason
+// to support investigation of potential unauthorized access attempts.
+
 Event
 | where EventID == 4625
 | extend LogonType = extract(@"Logon Type:\s+(\d+)", 1, RenderedDescription)
