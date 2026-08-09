@@ -1,8 +1,0 @@
-Event
-| where EventID == 4625
-| extend LogonType = extract(@"Logon Type:\s+(\d+)", 1, RenderedDescription)
-| extend TargetAccount = extract(@"Account For Which Logon Failed:.*?Account Name:\s+([^\s]+)", 1, RenderedDescription)
-| extend SourceIP = extract(@"Source Network Address:\s+([^\s]+)", 1, RenderedDescription)
-| extend FailureReason = extract(@"Failure Reason:\s+([^\r\n]+)", 1, RenderedDescription)
-| where LogonType == "3"
-| project TimeGenerated, Computer, TargetAccount, LogonType, SourceIP, FailureReason
