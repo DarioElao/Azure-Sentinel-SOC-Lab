@@ -23,9 +23,11 @@ The objective was to apply and reinforce existing skills in KQL, SIEM administra
 * Incident
 * SOC Analyst Investigation 
 
-![SOC Lab Environment](screenshots/lab-environment.png)
+<p align="center">
+  <img src="screenshots/Lab-Environment.png" width="600">
+</p>
 
-*Image - Microsoft Sentinel SOC lab environment used for the investigation.*
+*Figure 1 - Microsoft Sentinel SOC lab environment used for the investigation*
 
 ## Detection
 
