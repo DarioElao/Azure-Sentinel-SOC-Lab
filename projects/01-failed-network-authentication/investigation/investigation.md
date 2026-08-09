@@ -21,6 +21,12 @@ The detection identified a failed network authentication attempt on the Windows 
 | Failure Reason | Unknown user name or bad password |
 | Authentication | NTLM                              |
 
+
+<div>
+  <img src="../screenshots/Example Incident.png" width="400">
+</div>
+
+
 ## Investigation
 
 The event generated a Microsoft Sentinel alert and was associated with **Incident #2**.
@@ -31,12 +37,20 @@ The event was therefore consistent with the controlled authentication activity p
 
 Entity mapping was configured to associate the detection with the relevant **device and IP address**, improving the context available during investigation.
 
+<div>
+  <img src="../screenshots/Alert - Entity Mapping Details.png" width="400">
+</div>
+
 ## Classification
 
 **Classification:** Informational, expected activity
 **Determination:** Security testing
 
 The alert was intentionally generated to validate the detection pipeline.
+
+<div>
+  <img src="../screenshots/Alert Classification.png" width="400">
+</div>
 
 ## Investigation Outcome
 
