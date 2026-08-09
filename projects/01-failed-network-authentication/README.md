@@ -41,9 +41,9 @@ The objective was to apply and reinforce existing skills in KQL, SIEM administra
 
 *Figure 1 - Microsoft Sentinel SOC lab environment Diagram used for the investigation*
 
-*Figure 2 - SOC-LAB Resource Group Creation in Azure*
+*Figure 2 - SOC-LAB Resource Group created in Azure*
 
-*Figure 3 - VM (SOC-WIN11-01) added to the Azure Portal*
+*Figure 3 - SOC-WIN11-01 VM added to the Azure Portal*
 
 ## Detection
 
