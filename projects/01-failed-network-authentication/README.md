@@ -23,8 +23,8 @@ The objective was to apply and reinforce existing skills in KQL, SIEM administra
 * Incident
 * SOC Analyst Investigation 
 
-<p align="center">
-  <img src="screenshots/Lab-Environment.png" width="600">
+<p>
+  <img src="screenshots/Lab-Environment.png" width="400">
 </p>
 
 *Figure 1 - Microsoft Sentinel SOC lab environment used for the investigation*
@@ -44,6 +44,15 @@ The query was implemented as a **Scheduled Analytics Rule**:
 
 `SOC-LAB - Failed Network Authentication`
 
+<div>
+  <img src="screenshots/Microsoft Defender Detect Rule.png" width="400">
+  <img src="screenshots/Entity Mapping on Detect Rule.png" width="375">
+</div>
+
+*Figure 2 - Microsoft Defender Detect Rule*
+
+*Figure 3 - Entity Mapping parameters on Detect Rule*
+
 ## Results
 
 The detection successfully generated a Sentinel alert and Incident #2.
@@ -61,6 +70,11 @@ Example event:
 The detection was mapped to **MITRE ATT&CK T1110 — Brute Force** and enriched with entity mapping for the device and IP address.
 
 The event was intentionally generated as part of controlled security testing and classified as **Informational, expected activity / Security testing**.
+
+<div>
+  <img src="screenshots/Example Incident.png" width="400">
+  <img src="screenshots/Alert - Entity Mapping Details.png" width="400">
+</div>
 
 ## Skills Demonstrated
 
